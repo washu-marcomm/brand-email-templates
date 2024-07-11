@@ -1,7 +1,7 @@
 # brand-email-templates
 **WashU brand email templates**, HTML files  
 Author: WashU Marketing & Communications  
-**version 1.0.0**
+**version 1.0.1**
 
 ## What's Included
 - default newsletter template
