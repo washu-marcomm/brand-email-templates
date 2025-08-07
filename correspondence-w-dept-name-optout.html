@@ -86,10 +86,17 @@ hr { margin:24px 0; border-width:0; background:#b1b1b1; color:#b1b1b1; height:1p
 	.col5050_1padding { padding:0 0 24px !important; }
 	.col5050_2padding { padding:0 0 32px !important; }
 	.col5050 img { width:100% !important; }
+	.branding-content { padding-top:16px !important; padding-bottom:16px !important; }
+	.col123 { max-width:100% !important; }
+	.col123_left { padding-bottom:16px !important; }
+	.col123_right { width:auto !important; padding-left:13px !important; }
+	.col123_rightpadding { padding-top:0 !important; min-height:19px !important; }
 	.button, .button-alt { margin-bottom:24px !important; }
 }
 @media screen and (min-width:650px) {
 	.button-wrapper .button-table:last-child { padding-left:24px !important; }
+	.col123_left { max-width:140px !important; }
+	.col123_right { max-width:460px !important; }
 }
 </style>
 <style>
@@ -132,16 +139,30 @@ table {
 	<div role="banner" class="branding" aria-roledescription="email" aria-label="email name" lang="en" dir="ltr" style="font-size:medium; font-size:max(16px, 1rem); background-color:#f8f8f8;">
 
 	<!-- CONTENT-WRAP -->
-	<!--[if true]><table role="presentation" style="width:37.5em" align="center"><tr><td style="margin:0 auto; padding:8px 0;"><![endif]-->
-	<div style="max-width:37.5em; margin:0 auto; padding:8px 25px; background-color:transparent;">
+	<!--[if true]><table role="presentation" style="width:37.5em" align="center"><tr><td style="margin:0 auto; padding:24px 0;"><![endif]-->
+	<div class="branding-content" style="max-width:37.5em; margin:0 auto; padding:24px 25px; background-color:transparent;">
 
-		<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;"><tr>
-			<td width="108" style="width:108px; height:26px; max-height:26px; padding:0;">
-				<p style="margin:0; padding:0; font-size:26px; line-height:1; color:#222222;"><img src="https://webassets.washu.edu/data/WashU-RGB-darkmode.png" height="26" width="107" style="height:26px; max-height:26px !important; width:auto; display:block;" alt="WashU" /></p>
-			</td><td style="vertical-align:middle; padding:0 0 0 24px;">
-				<p style="margin:0; padding:0; font-size:19.2px; line-height:1.2;">&nbsp;</p>
-			</td>
-		</tr></table>
+		<!-- LOGO & DEPT NAME 2 COLS -->
+		<div class="col123" style="font-size:0;">
+		<!--[if mso]><table role="presentation" width="100%"><tr><td style="width:140px; vertical-align:top;"><![endif]-->
+			<div class="col123_left" style="width:100%; display:inline-block; vertical-align:top; font-size:16px; text-align:left;">
+				<div class="col123_leftpadding" style="padding:0 16px 0 0;">
+
+					<p style="margin:0; padding:0; font-size:26px; line-height:1; color:#222222;"><img src="https://webassets.washu.edu/data/WashU-RGB-darkmode.png" height="30" width="123" style="height:30px; max-height:30px !important; width:auto; display:block;" alt="WashU" /></p>
+
+				</div>
+			</div>
+			<!--[if mso]></td><td style="width:460px; vertical-align:top;"><table role="presentation" cellpadding="0" cellspacing="0" style="margin:0; padding:0;"><tr><td width="16" style="width:16px;"> </td><td><![endif]-->
+			<div class="col123_right" style="width:100%; display:inline-block; vertical-align:top; font-size:16px; text-align:left;">
+				<div class="col123_rightpadding" style="min-height:30px; padding:2px 0 0 16px; border-left:1px solid #b1b1b1;">
+
+					<p style="margin:0; padding:0; font-size:19.2px; line-height:1.2;">Associated Federation of Organizations</p>
+
+				</div>
+			</div>
+		<!--[if mso]></td></tr></table></td></tr></table><![endif]-->
+		</div>
+		<!-- /LOGO & DEPT NAME 2 COLS -->
 
 	</div>
 	<!--[if true]></td></tr></table><![endif]-->

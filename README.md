@@ -1,9 +1,18 @@
 # brand-email-templates
 **WashU brand email templates**, HTML files  
 Author: WashU Marketing & Communications  
-**version 1.0.1**
+**version 1.0.3**
+## What's Changed
+### 1.0.3
+- new versions of the correspondence and newsletter templates, with addition of a department name in the header, to the right of the WashU logo.
+- the WashU logo file has been switched out with one that allows the logo to be seen in dark mode
 
 ## What's Included
+### Logo alone in branding header
+- default newsletter template
+- default correspondence template, with opt-out links in the footer
+- default correspondence template, *without* opt-out links in the footer
+### Logo and Dept Name in branding header
 - default newsletter template
 - default correspondence template, with opt-out links in the footer
 - default correspondence template, *without* opt-out links in the footer
